@@ -61,13 +61,6 @@ namespace AllReady.Controllers
                 TimeZoneId = user.TimeZoneId,
                 Name = user.Name
             };
-
-            var something_else = "";
-
-            var what = "";
-
-            var whatelse = "";
-
             return View(model);
         }
 
