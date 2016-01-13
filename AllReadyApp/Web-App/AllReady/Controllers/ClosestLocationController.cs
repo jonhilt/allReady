@@ -27,6 +27,8 @@ namespace AllReady.Controllers
                 MaxRecordsToReturn = count
             });
 
+            var test = "";
+
             return results;
         }
     }
